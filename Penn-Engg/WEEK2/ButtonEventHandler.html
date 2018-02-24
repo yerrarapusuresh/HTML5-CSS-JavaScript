@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<button id ="clickMe"> ClickMe </button>
+		<p> Number of times click so far: <span id ="outputTag"></span> </p>
+		
+		<script>
+			var numberOfClicks = 1;
+			function onClickFuncition() {
+				if(numberOfClicks <= 1) document.getElementById("outputTag").innerHTML = 'once';
+				else
+					document.getElementById("outputTag").innerHTML = numberOfClicks+" times";
+				numberOfClicks++;
+			}
+			
+			var button = document.getElementById("clickMe");
+			button.addEventListener('click', onClickFuncition);
+		</script>
+	</body>
+</html>

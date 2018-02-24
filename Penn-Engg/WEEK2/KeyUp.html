@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+	<input id = "textbox"/>
+	<p> so far you typed <span id = "text"></span></p>
+	<script>
+	document.addEventListener('keyup', keylistener);
+	function keylistener(e) {
+		document.getElementById('text').innerHTML = document.getElementById('textbox').value;
+		document.getElementById('text').style.backgroundColor = 'red';
+	}
+	</script>
+	
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<div>
+			<p>your last Visit time<span id = "lastVisitedTime"></span></p>
+			<p>your last Visit time in number <span id = "lastVisitWithNumber"></span></p>
+		</div>
+	<script>
+		var lastVisitedTime = 'never';
+		var lastVisitWithNumber = 0;
+		if(localStorage.lastVisit) {
+			var lastVisit = JSON.parse(lastVisit);
+			lastVisitedTime = lastVisit.date;
+			lastVisitWithNumber = lastVisit.lastVisitWithNumber;
+		}
+		
+		document.getElementById("lastVisitedTime").innerHTML = lastVisitedTime;
+		lastVisitWithNumber++;
+		document.getElementById("lastVisitWithNumber").innerHTML = lastVisitWithNumber;
+		var myJson = {};
+		lastVisit.date = new Date();
+		lastVisit.lastVisitWithNumber = lastVisitWithNumber;
+		localStorage.lastVisit = JSON.stringify(myJson);
+	</script>
+	</body>
+</html>

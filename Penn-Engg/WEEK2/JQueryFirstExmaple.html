@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JQuery First Program</title>
+		<script src = "jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<button id = "clickMe">Clik Me</button>
+		<p> Number of Clicks so far: <span id = "numClicks"></span></p>
+		<script>
+			var numOfClicks = 1;
+			function clickCounter() {
+				if(numClicks == 1)
+					$('#numClicks').html('once');
+				else 
+					$('#numClicks').html(numOfClicks+" times");
+					numOfClicks++;
+			}
+			$('#clickMe').click(clickCounter);
+		</script>
+	</body>
+<html>

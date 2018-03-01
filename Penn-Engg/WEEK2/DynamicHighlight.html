@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Making Items Bold</title>
+		<script src = "jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<ol>
+			<li>item One</li>
+			<li>item Two</li>
+			<li>item Three</li>
+			<li>item Four</li>
+			<li>item Five</li>
+		</ol>
+		<script>
+			$('li').click(function() {
+				$(this).css('font-weight','bold');
+			});
+		</script>
+	</body>
+</html>

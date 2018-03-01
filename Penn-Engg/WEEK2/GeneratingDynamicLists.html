@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src = "D:\Big Three\HTML5-CSS-JavaScript\Penn-Engg\Resources\jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<input id = "input" ></input>
+		<ul>
+			<span id = "listItem"><span>
+		</ul>
+		<script>
+			function itemGenerator(e) {
+			if(e.keyCode == 13) {
+				
+				$('#listItem').append("<li>"+$('#input').val()+"</li>");
+				$('#input').val('');
+				
+			}
+			}
+			
+			$('input').keyup(itemGenerator);
+		</script>
+	</body>
+</html>

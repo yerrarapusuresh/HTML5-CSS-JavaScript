@@ -1,1 +1,4 @@
-============= Section 1 ========================
+============= Section 2 ========================
+HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup Lanugage.
+
+* inseted of <b> bold and <i> italic, we should use <strong> and <em> tags for symmantical purpose. 

@@ -44,4 +44,14 @@ HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup 
       > header; group or aggrigate the relevent tags under this tag and justifies for the header
       > nav; group or aggrigate the relevent tags under this tag and justifies for the navigation or menu
       > article; group or aggrigate the relevent tags under this tag and justifies for main content;
-      > footer; providies the footer menu;
+      > footer; providies the footer menu such as copyright, year and owner;
+    - the major idea is search engine will know much about your page when page is structurallyy defined.
+
+
+**** Useful tools in VSCode ****
+    - image preview
+    - color highlight
+    - auto rename tag
+    - live server
+
+  

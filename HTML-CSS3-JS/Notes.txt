@@ -1,4 +1,47 @@
 ============= Section 2 ========================
 HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup Lanugage.
 
-* inseted of <b> bold and <i> italic, we should use <strong> and <em> tags for symmantical purpose. 
+- inseted of <b> bold and <i> italic, we should use <strong> and <em> tags for symmantical purpose. 
+
+
+****  create lists ****
+    - we can create list two ways in HTML 
+        * ordered list using <ol> tag. numbers will be generated for each item.
+        * unordered list using <ul> tag.   bullets or points will be generated.
+      
+      eg. for shopping items.
+      <p> ordred list shopping items today</p>
+      <ol>
+        <li> oil </li>
+        <li> soaps </li>
+      </ol>
+
+      <p> unordred list shopping items today</p>
+      <ul>
+        <li> chicken </li>
+        <li> tomotoes </li>
+      </ul>
+
+
+**** Embedded images in HTML page ****
+    - we can embedded images with image tag <img/>
+    - it is self closing tag
+    - it contains following attributes
+        > src: source location of image
+        > alt: alternative text for search engines and disabled people
+        > height and width: it will scale the image accordingly. 
+
+**** Hyper Links using anchor tags ****
+    - we can navigate to other pages or within pages using anchor tage <a></a>
+    - it contains two attributes:
+        >href: where it suppose to navigate. e.g href="www.google.com"
+        >target: it is more or like where to open. like replace current, or open separte tab or window
+
+    -e.g <a href="www.google.com" target="_blank">Google</a>
+
+**** Structure HTML page ****
+    - the following tags give more symmantic meaning to html page. it does not impact visually
+      > header; group or aggrigate the relevent tags under this tag and justifies for the header
+      > nav; group or aggrigate the relevent tags under this tag and justifies for the navigation or menu
+      > article; group or aggrigate the relevent tags under this tag and justifies for main content;
+      > footer; providies the footer menu;

@@ -1,4 +1,4 @@
-============= Section 2 ========================
+======================== Section 2 ========================
 HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup Lanugage.
 
 - inseted of <b> bold and <i> italic, we should use <strong> and <em> tags for symmantical purpose. 
@@ -54,4 +54,38 @@ HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup 
     - auto rename tag
     - live server
 
-  
+======================== Section 3 ========================
+
+**** Inline, internal and external CSS ****
+    - Inline CSS: define style with in tag;
+        > e.g <h3 style="color:red"> Hello world <h3>
+        > not preferable 
+    - Internal CSS: define style with in style tag in header;
+        > e.g <html>
+                <head>
+                    <style> 
+                    h3 {
+                      color:red
+                    }
+                    </style>
+                </head>
+    - External CSS: decouple the styles from HTML page and maintain in separate file.
+        > it will connect to through the link tag
+        > e.g <html>
+                <head>
+                  <link href="file.css" rel="stylesheet"/>
+                </head>
+
+**** Combining Selectors ****
+    - if we want apply same style for multiple tags use comma separated.
+      >e.g h1, h2, h3 {
+            font-size: 10px;
+          }
+
+    - if we want apply style to more specefic tag use speceficity
+      >e.g h1 p {
+            font-size: 10px;
+          }
+      > the above style will apply to only p tag with in the h1 tag
+
+

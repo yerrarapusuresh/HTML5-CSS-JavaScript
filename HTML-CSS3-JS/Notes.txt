@@ -86,6 +86,61 @@ HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup 
       >e.g h1 p {
             font-size: 10px;
           }
-      > the above style will apply to only p tag with in the h1 tag
+      > the above style will apply to only p tag with in the h1 tag.
 
 
+**** id and class selectors ****
+
+
+
+
+**** Inhertence in CSS ****
+    - Inhertence concept is used css.
+      > e.g if we apply style to body it will be applied to child elements unless it overrides.
+        body {
+          font-text: sans-sarif;
+        }
+      
+      > the above text style is applied to all children in body tag unless they have style.
+      > mostly this Inhertence applied to font related styles but not other style like boarder.
+
+    - * universal selector
+
+
+**** CSS Box model ****
+      - it is combination of 4 things 
+          > content: image, text
+          > padding: white space between border and content
+          > border: border around the content
+          > margin: white space around the border
+
+
+      - collapsing margin:Margin collapse occurs when vertically adjacent margins of block-level elements collide to share a general margin space.
+                          The size of this shared space is dictated by the larger number margin.
+          > If a margin of 70px collides with a margin of 90px, the 90px margin will win. 
+          > If a margin of -70px collides with a margin of -90px, -90px will win.
+      
+      - % plays important role in responsive design. it adopts diemension by parent.
+      
+      - we can achive it centering by margin left and maring right setting auto.
+
+
+
+**** Types of boxes ****
+      - Block level
+          > Elements are formatted visually as blocks
+          > Elements are occupy  100% parent elements width, not) matter what the content is 
+          > Elements stocked vertically by defualt, one after another
+          > e.g body, main, header, footer, ul, ol
+      - Inline elements
+          > Occupies only space necessary for the content
+          > causes no line breaks before and after the elements
+          > box model applies in different ways: height and width do not apply.
+          > padding and margins apply only horizontally not vertically
+      -inline-block
+          > it is combination both inline and block 
+          > we adjust height of inline elements
+
+
+**** Psudo elements ****
+    - A CSS pseudo-element is used to style specified parts of an element.

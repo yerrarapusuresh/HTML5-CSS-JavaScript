@@ -144,3 +144,12 @@ HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup 
 
 **** Psudo elements ****
     - A CSS pseudo-element is used to style specified parts of an element.
+    - below example will create psudo element after h2
+      > h2::after {
+              content: "TOP";
+              display: inline-block;
+              position: absolute;
+              background-color: yellow;
+              top: -10px;
+              right: 127px;
+          }

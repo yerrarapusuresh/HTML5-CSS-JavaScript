@@ -167,3 +167,21 @@ HTML: Hyper Text Markup Lanugage, it is not programming Lanugage it is a markup 
 
 **** Float layouts ****
 
+
+
+**** Flex ****
+
+
+**** CSS Grid ****
+    - CSS Grid is set of properties for 2D grid.
+    - The main idea is divide container to both rows and columns and that can be filled with child elements.
+    - in 2D context, it uses less html and more readable css code.
+    - CSS grid not replacement for flex. flex for 1D and CSS grid for 2D.
+
+
+
+================= SECTION 5 ===============
+    - understading about typograpy
+      > we need to select good font size, line height and letter spacing any header/paragraph
+      > choose right typograpy and font size play very important role in web design
+    - search required typefaces from font.google.com and link with html.
